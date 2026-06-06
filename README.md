@@ -71,7 +71,7 @@ The paper uses a frozen ImageNet-pretrained MaxViT encoder. This project include
 @article{rahman2026g2t,
   title={G2T: Gate Guided Transformer for Medical Image Segmentation},
   author={Rahman, Md Motiur and Shokouhmand, Shiva and Rahman, Saeka and Bhatt, Smriti and Mirbozorgi, S. Abdollah and Faezipour, Miad},
-  journal={Scientific Reports},
+  journal={Submitted},
   year={2026}
 }
 ```
