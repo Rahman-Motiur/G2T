@@ -56,16 +56,6 @@ Run:
 python scripts/train_g2t.py --config configs/g2t_acdc.yaml
 ```
 
-## Paper-to-Code Mapping
-
-| Paper component | Code |
-| --- | --- |
-| Hierarchical encoder | `g2t/models/encoder.py` |
-| Bottleneck block | `BottleneckBlock` in `g2t/models/g2t.py` |
-| Refine, Expand, Produce gates | `FeatureAwareDecoderBlock` in `g2t/models/fad.py` |
-| LH-RAAM | `g2t/models/lh_raam.py` |
-| G2T forward workflow | `g2t/models/g2t.py` |
-| CE + Dice deep supervision | `g2t/training/losses.py` |
 
 ## Datasets
 
